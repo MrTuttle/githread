@@ -3,10 +3,10 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import { ThemeProvider } from "./src/theme/ThemeProvider";
+import { ThemeProvider } from "@/src/theme/ThemeProvider";
 import clsx from "clsx";
-import { Header } from "./src/feature/layout/header";
-import { Footer } from "./src/feature/layout/Footer";
+import { Header } from "@/src/feature/layout/Header";
+import { Footer } from "@/src/feature/layout/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
